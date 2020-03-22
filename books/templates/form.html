@@ -1,11 +1,19 @@
-{% extends 'base.html'%}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="utf-8">
+    <title>Bookies Signup</title>
+</head>
+<body>
+<div class="page">
+    <h1>Registeration Form</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+    <input class="button" type="submit" value="Submit">
+    </form>
+</div>
+</body>
 
-{% block content %}
-<h1>Registeration Form</h1>
-<form action="{% url 'user' %}" method="post">
-    {% csrf_token %}
-{{form.as_p}}
-    <input type="submit" value="Submit">
-
-</form>
-{% endblock %}

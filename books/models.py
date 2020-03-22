@@ -1,5 +1,6 @@
 from django.db import models
 import datetime
+from django.db.models.signals import post_save, pre_save
 
 class info(models.Model):
     name=models.CharField(max_length=55)

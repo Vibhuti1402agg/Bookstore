@@ -4,7 +4,9 @@
 <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand">Welcome to Vibhuti's Bookstore</a>
         <form class="form-inline">
-            <a href="{% url 'add' %}"   class="btn btn-outline-success my-2 my-sm-0">Register</a>
+            <a href="{% url 'login' %}"   class="btn btn-outline-success my-2 my-sm-0">Login</a>
+            <a href="{% url 'logout' %}"   class="btn btn-outline-success my-2 my-sm-0">Logout</a>
+            <a href="{% url 'user' %}"   class="btn btn-outline-success my-2 my-sm-0">Register</a>
             <a href="{% url 'newbook' %}"   class="btn btn-outline-success my-2 my-sm-0">+</a>
         </form>
 </nav>
@@ -20,6 +22,9 @@
             <div class="card-body">
                 <h5 class="card-title">{{ book.name }}</h5>
                 <p class="card-text">{{ book.price }}</p>
+                <a href="{% url 'editbook' book_id=book.id %}" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </a>
                 <a href="{% url 'cart' %}" class="btn btn-primary">Add To Cart</a>
             </div>
         </div>

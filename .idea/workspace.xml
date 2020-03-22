@@ -26,6 +26,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,7 +44,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\PycharmProjects\bookie\books\static\css" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.form2.html">
     <configuration name="form2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/bookie/books/templates/form2.html" useBuiltInWebServerPort="true">
@@ -181,7 +188,9 @@
       <workItem from="1583647066244" duration="1277000" />
       <workItem from="1583649090753" duration="610000" />
       <workItem from="1583652946352" duration="20633000" />
-      <workItem from="1584288195103" duration="7700000" />
+      <workItem from="1584288195103" duration="8378000" />
+      <workItem from="1584439473053" duration="3962000" />
+      <workItem from="1584596666017" duration="42962000" />
     </task>
     <servers />
   </component>
@@ -193,6 +202,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579815918287" />
+    <state x="538" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584779855844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584779855844" />
     <state width="1493" height="77" key="GridCell.Tab.0.bottom" timestamp="1579822202654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -213,10 +226,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584379136409" />
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584288196262">
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584596667364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584288196262" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584596667364" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/books/models.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bookie$views.coverage" NAME="views Coverage Results" MODIFIED="1579809994218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books" />
